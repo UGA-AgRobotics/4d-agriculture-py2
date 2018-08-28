@@ -1,6 +1,4 @@
-##################################################
-4d-agriculture-py2 specific README
-##################################################
+# 4d-agriculture-py2 specific README
 
 This repo is 4d-agriculture converted to Python 2. In addition,
 there is now a condensed requirements.txt for the Python libraries,
@@ -49,9 +47,9 @@ and it can run in a Docker container.
 
 
 
-##################################################
-Below is the original README for 4d-agriculture
-##################################################
+
+# Below is the original README for 4d-agriculture
+
 
 ## NRI Agsampling - 4D Data Analysis and Visualization
 
