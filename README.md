@@ -12,18 +12,22 @@ and it can run in a Docker container.
    sure it's the python2 used by ROS.
 
 	$ pip install -r requirements.txt
+	
+3. Unzip data folder into 4d-agriculture-py2 repo:
 
-3. cd to workspace level, and build ROS workspace:
+	$ unzip main_datapath.zip -d .
+
+4. cd to workspace level, and build ROS workspace:
 
 	$ catkin_make
 
-4. Source workspace environment, set ROS_MASTER_URI (for roscore) and CONFIG
+5. Source workspace environment, set ROS_MASTER_URI (for roscore) and CONFIG
    (for 4d-agriculture-py2) env vars:
 
 	$ source devel/setup.bash
 	$ export ROS_MASTER_URI=http://192.168.0.188:11311 
 
-5. Run the 4d-agriculture-py2 ROS node:
+6. Run the 4d-agriculture-py2 ROS node:
 
 	$ rosrun agriculture-4d-py2 main_ros.py -config $CONFIG
 
